@@ -1,0 +1,72 @@
+
+      .hbox {
+        height: 22rem;
+      }
+
+      ::-webkit-input-placeholder {
+        text-align: center;
+        line-height: 10rem;
+      }
+
+      :-moz-placeholder {
+        text-align: center;
+        line-height: 10rem;
+      }
+
+      ::-moz-placeholder {
+        text-align: center;
+        line-height: 10rem;
+      }
+
+      :-ms-input-placeholder {
+        text-align: center;
+        line-height: 10rem;
+      }
+
+      .material-icons.md-25 {
+        font-size: 28px !important;
+      }
+
+      .modalshow.show {
+        display: flex;
+        animation-name: fadeIn;
+        animation-duration: 0.4s;
+      }
+
+      .copynoti.show {
+        display: flex;
+        animation-name: fadeIn;
+        animation-duration: 0.3s;
+      }
+
+      .clearnoti.show {
+        display: flex;
+        animation-name: fadeIn;
+        animation-duration: 0.3s;
+      }
+
+      .translateColor.show {
+        color: gray
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      #text2:invalid + #translateButton {
+        background-color: red;
+    }

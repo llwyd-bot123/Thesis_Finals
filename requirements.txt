@@ -1,0 +1,5 @@
+Flask==2.0.3
+Keras_Preprocessing==1.1.2
+numpy==1.21.2
+tensorflow-cpu==2.7.1 #redownload - pip install -r requirements.txt
+gunicorn==20.1.0
